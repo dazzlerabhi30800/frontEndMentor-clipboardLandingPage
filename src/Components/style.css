@@ -406,7 +406,8 @@ footer .link--wrapper {
 
     /* FEATURE CONTAINER  */
     .feature--wrapper {
-        padding: 1rem 0rem;
+        padding: 3rem 0rem 1rem 0rem;
+        margin: 1rem 0 5px 0;
     }
 
     .feature--container {
@@ -449,7 +450,7 @@ footer .link--wrapper {
 
     /* CLIPBOARD WRAPPER  */
     .clipboard--wrapper {
-        gap: 2rem;
+        gap: 4rem;
     }
 
     .ipad--img {
@@ -522,6 +523,14 @@ footer .link--wrapper {
     }
 
     /* DOWNLOAD WRAPPER  */
+    .download--wrapper {
+        gap: 2.5rem;
+    }
+
+    .download--wrapper .text--wrapper {
+        gap: 2rem;
+    }
+
     .download--wrapper .button--wrapper {
         margin: 10px 0;
         padding: 1rem;
