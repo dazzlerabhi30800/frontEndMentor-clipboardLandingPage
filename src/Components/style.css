@@ -238,6 +238,7 @@ header img {
     font-size: 1.4rem;
     width: max(330px, 40vw);
     margin: 0 auto;
+    align-self: center;
 }
 
 .workflow--card p {
