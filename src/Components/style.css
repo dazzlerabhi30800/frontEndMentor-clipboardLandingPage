@@ -178,6 +178,7 @@ header img {
     gap: 1rem;
     padding: 1rem;
     margin: 30px 20px 10px 20px;
+    align-items: center;
 }
 
 .clipboard--wrapper .text--wrapper {
@@ -191,8 +192,10 @@ header img {
 .clipboard--wrapper .text--wrapper h4 {
     color: var(--Dark-Grayish-Blue);
     font-size: 1.7rem;
-    width: max(330px, 40vw);
+    width: 300px;
     margin: 0 auto;
+    align-self: center;
+    display: block;
 }
 
 .clipboard--wrapper .text--wrapper p {
@@ -216,6 +219,7 @@ header img {
     flex-direction: column;
     gap: 2rem;
     text-align: center;
+    align-items: center;
 }
 
 .workflow--card {
@@ -224,6 +228,7 @@ header img {
     gap: 1.5rem;
     padding: 1.5rem 1rem;
     align-items: center;
+    text-align: center;
 }
 
 .workflow--card img {
@@ -236,9 +241,10 @@ header img {
 .workflow--card h5 {
     color: var(--Dark-Grayish-Blue);
     font-size: 1.4rem;
-    width: max(330px, 40vw);
+    width: 330px;
     margin: 0 auto;
     align-self: center;
+    text-align: center;
 }
 
 .workflow--card p {
